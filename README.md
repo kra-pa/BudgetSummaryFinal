@@ -103,9 +103,9 @@ The assertions runner has 21 cumulative tests: at least 8 pure/validation tests,
 
 ## Git submission record
 
-Repository URL: **replace after publishing to GitHub**  
+Repository URL: https://github.com/kra-pa/BudgetSummaryFinal 
 Branch: `main`  
-Final commit: **replace with the output of `git rev-parse HEAD` after the final push**
+Final commit: e3f2e3aac06ca1b6a32107c8f0ad3dc2696c2ed7
 
 The Moodle ZIP must contain the same source version as this commit. Do not include `bin`, `obj`, `.vs`, IDE caches, credentials, or generated export files; `.gitignore` is provided for this purpose.
 
