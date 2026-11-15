@@ -1,0 +1,6 @@
+Id,Category,PlannedAmount,ActualAmount,IsApproved
+B001,Food,100,110,true
+B002,Transport,200,250,true
+B003,Training,90,80,true
+B004,Equipment,1000,1050,true
+B005,Marketing,500,400,false

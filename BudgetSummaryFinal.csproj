@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="data\budget-records.csv"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory></None>
+    <None Update="native\budget_native.dll"><CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory><TargetPath>budget_native.dll</TargetPath></None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="BudgetSummaryFinal.Tests\**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BudgetSummaryFinal.Tests\" />
+  </ItemGroup>
+
+</Project>
